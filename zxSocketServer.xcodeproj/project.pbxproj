@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		33569F6F151DC9C700605257 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33569F6E151DC9C700605257 /* Cocoa.framework */; };
+		33569F79151DC9C700605257 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 33569F77151DC9C700605257 /* InfoPlist.strings */; };
+		33569F7B151DC9C700605257 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 33569F7A151DC9C700605257 /* main.m */; };
+		33569F7F151DC9C700605257 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 33569F7D151DC9C700605257 /* Credits.rtf */; };
+		33569F82151DC9C700605257 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 33569F81151DC9C700605257 /* AppDelegate.m */; };
+		33569F85151DC9C700605257 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33569F83151DC9C700605257 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		33569F6A151DC9C700605257 /* zxSocketServer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zxSocketServer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		33569F6E151DC9C700605257 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		33569F71151DC9C700605257 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		33569F72151DC9C700605257 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		33569F73151DC9C700605257 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		33569F76151DC9C700605257 /* zxSocketServer-Info.plist */ = {isa = PBXFileReference; path = "zxSocketServer-Info.plist"; sourceTree = "<group>"; };
+		33569F78151DC9C700605257 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		33569F7A151DC9C700605257 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		33569F7C151DC9C700605257 /* zxSocketServer-Prefix.pch */ = {isa = PBXFileReference; path = "zxSocketServer-Prefix.pch"; sourceTree = "<group>"; };
+		33569F7E151DC9C700605257 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		33569F80151DC9C700605257 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		33569F81151DC9C700605257 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		33569F84151DC9C700605257 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33569F67151DC9C700605257 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33569F6F151DC9C700605257 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33569F5F151DC9C700605257 = {
+			isa = PBXGroup;
+			children = (
+				33569F74151DC9C700605257 /* zxSocketServer */,
+				33569F6D151DC9C700605257 /* Frameworks */,
+				33569F6B151DC9C700605257 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		33569F6B151DC9C700605257 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				33569F6A151DC9C700605257 /* zxSocketServer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		33569F6D151DC9C700605257 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				33569F6E151DC9C700605257 /* Cocoa.framework */,
+				33569F70151DC9C700605257 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		33569F70151DC9C700605257 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				33569F71151DC9C700605257 /* AppKit.framework */,
+				33569F72151DC9C700605257 /* CoreData.framework */,
+				33569F73151DC9C700605257 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		33569F74151DC9C700605257 /* zxSocketServer */ = {
+			isa = PBXGroup;
+			children = (
+				33569F80151DC9C700605257 /* AppDelegate.h */,
+				33569F81151DC9C700605257 /* AppDelegate.m */,
+				33569F83151DC9C700605257 /* MainMenu.xib */,
+				33569F75151DC9C700605257 /* Supporting Files */,
+			);
+			path = zxSocketServer;
+			sourceTree = "<group>";
+		};
+		33569F75151DC9C700605257 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				33569F76151DC9C700605257 /* zxSocketServer-Info.plist */,
+				33569F77151DC9C700605257 /* InfoPlist.strings */,
+				33569F7A151DC9C700605257 /* main.m */,
+				33569F7C151DC9C700605257 /* zxSocketServer-Prefix.pch */,
+				33569F7D151DC9C700605257 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		33569F69151DC9C700605257 /* zxSocketServer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33569F88151DC9C700605257 /* Build configuration list for PBXNativeTarget "zxSocketServer" */;
+			buildPhases = (
+				33569F66151DC9C700605257 /* Sources */,
+				33569F67151DC9C700605257 /* Frameworks */,
+				33569F68151DC9C700605257 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = zxSocketServer;
+			productName = zxSocketServer;
+			productReference = 33569F6A151DC9C700605257 /* zxSocketServer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		33569F61151DC9C700605257 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "张玺";
+			};
+			buildConfigurationList = 33569F64151DC9C700605257 /* Build configuration list for PBXProject "zxSocketServer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 33569F5F151DC9C700605257;
+			productRefGroup = 33569F6B151DC9C700605257 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				33569F69151DC9C700605257 /* zxSocketServer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		33569F68151DC9C700605257 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33569F79151DC9C700605257 /* InfoPlist.strings in Resources */,
+				33569F7F151DC9C700605257 /* Credits.rtf in Resources */,
+				33569F85151DC9C700605257 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		33569F66151DC9C700605257 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33569F7B151DC9C700605257 /* main.m in Sources */,
+				33569F82151DC9C700605257 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		33569F77151DC9C700605257 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33569F78151DC9C700605257 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		33569F7D151DC9C700605257 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33569F7E151DC9C700605257 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		33569F83151DC9C700605257 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33569F84151DC9C700605257 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		33569F86151DC9C700605257 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		33569F87151DC9C700605257 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		33569F89151DC9C700605257 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "zxSocketServer/zxSocketServer-Prefix.pch";
+				INFOPLIST_FILE = "zxSocketServer/zxSocketServer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		33569F8A151DC9C700605257 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "zxSocketServer/zxSocketServer-Prefix.pch";
+				INFOPLIST_FILE = "zxSocketServer/zxSocketServer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		33569F64151DC9C700605257 /* Build configuration list for PBXProject "zxSocketServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33569F86151DC9C700605257 /* Debug */,
+				33569F87151DC9C700605257 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33569F88151DC9C700605257 /* Build configuration list for PBXNativeTarget "zxSocketServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33569F89151DC9C700605257 /* Debug */,
+				33569F8A151DC9C700605257 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 33569F61151DC9C700605257 /* Project object */;
+}
