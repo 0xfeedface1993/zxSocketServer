@@ -7,8 +7,21 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "GCDAsyncSocket.h"
 
-@interface AppDelegate : NSObject <NSApplicationDelegate>
+@interface AppDelegate : NSObject <NSApplicationDelegate,GCDAsyncSocketDelegate>
+{
+    GCDAsyncSocket *socket;
+    GCDAsyncSocket *s;
+}
+@property(strong)  GCDAsyncSocket *socket;
+
+
+- (IBAction)listen:(id)sender;
+@property (unsafe_unretained) IBOutlet NSTextView *status;
+@property (unsafe_unretained) IBOutlet NSTextField *port;
+@property (unsafe_unretained) IBOutlet NSTextField *host;
+
 
 @property (assign) IBOutlet NSWindow *window;
 
